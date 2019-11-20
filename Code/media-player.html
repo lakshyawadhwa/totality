@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+			<link href='media-player.css' rel='stylesheet' />
+			
+			
+			<title>Video Player</title>
+		</head>
+		
+		
+		
+<body>
+		<script src='media-player.js'></script>
+	<div id="header">
+		<h1>TOTALITY CORP</h1>
+		<input type="search" value="search" name="search" id="search">
+
+
+		
+	</div>
+
+	<div id='media-player'>
+		
+		<video id='media-video'>
+			<source src='Intro.mp4' type='video/mp4'>
+		</video>
+	
+		<div id='media-controls'>
+			<progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
+			<button id='play-button' class='play' title='play' onclick='togglePlayPause();'>Play/Pause</button>
+			<button id='change-video' class= 'change-video' title='change-video' onclick='changeVideo();'>Change</button>
+		</div>
+		
+		
+	</div>	
+	
+
+</body>
+</html>

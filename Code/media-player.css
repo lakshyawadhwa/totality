@@ -1,0 +1,106 @@
+
+body { font-family:'verdana'; }
+
+@font-face{
+	font-family: myFont;
+    src:url(font.ttf);
+}
+#header
+{
+	border-bottom: 1px solid black;
+	text-align: "center";
+	padding-bottom: 10px;
+}
+h1 { 
+	margin-left: 10px;
+	text-align: center;
+	font: 40px;
+	color:#333;
+	font-family:myFont;
+	margin: 0 auto;
+	display: inline-block;
+}
+#media-player {
+	display: inline-block;
+	margin: 0 auto;
+	width: 350px;
+	height: 400px;
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+
+}
+#media-control{
+	position: absolute;
+}
+img{
+	height: 20px;
+	width: 20px;
+	float:left;
+}
+#seconddiv{
+	display: block;
+	float:left;
+}
+p{
+	text-transform: lowercase; 
+	text-decoration: solid;
+	float:left;
+	margin-left: 5px;
+}
+#change-video{
+	text-indent:-9999px;
+	width:20px;
+	height:20px;
+	background: transparent url('download.png') no-repeat;
+	background-size: contain;
+}
+video {
+	width: 300px;
+	height:300px;
+	background:#000;
+}
+
+#play-button {
+	text-indent:-9999px;
+	width:40px;
+	height:40px;
+	border:none;
+	cursor:pointer;
+	background: transparent url('icon.png') no-repeat;
+	background-size: contain;
+
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+
+}
+
+#search{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	float: right;
+	margin:  10px;
+
+}
+
+progress {
+	font-size:12px;
+	padding: 10px;
+	width:80%;
+	height:16px;
+	border:none;
+	margin: 0;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+
+  
+
+
